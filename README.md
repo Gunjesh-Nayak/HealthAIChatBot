@@ -16,12 +16,18 @@ git_clone https://github.com/Gunjesh-Nayak/HealthAIChatBot.git
 ```bash
 change_directory : cd HealthAIChatBot
 ```
+### 2. create_venv
+
 ```bash
 create_venv conda create -n medibot python=3.10 -y
 ```
+### 3. Cactivate_venv
+
 ```bash
 activate_venv conda activate medibot
 ```
+### 4. install_requirements
+
 ```bash
 install_requirements pip install -r requirements.txt
 ```
